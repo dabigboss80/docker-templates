@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/TEMPLATENAME.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/dabigboss80/docker-templates/master/dabigboss/TEMPLATENAME.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
   <!-- Date in format YYYY-MM-DD  -->
   <Date></Date>
   <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+  [center][img width='300px' src='https://raw.githubusercontent.com/dabigboss80/docker-templates/master/dabigboss/img/dabigboss_small.png'][/center]
 
   [center][font size=4] Change Log[/font][/center]
   </Changes>

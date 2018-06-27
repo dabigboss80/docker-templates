@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/dm-video-transcoding.xml</TemplateURL>
+  <Name>Don Melton's Video Transcoding scripts</Name>
+
+  <Beta>False</Beta>
+  <Category></Category>
+  <!-- Date in format YYYY-MM-DD  -->
+  <Date>2018-06-27</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+    [center][font size=4] Change Log[/font][/center]
+  </Changes>
+  <!-- name preferably in lowercase  -->
+
+
+
+  <Description>
+    These are the awesome video transcoding scripts by Don Melton (https://github.com/donmelton/video_transcoding). The docker container is maintained by ntodd (https://hub.docker.com/r/ntodd/video-transcoding/). All credits where due. Please note that the scripts must be used from the commandline. No GUI / Webserver is provided. To run the script, ssh in and execute $ docker run -itv "`pwd`":/data ntodd/video-transcoding.
+  </Description>
+  <!-- link to the apps homepage or git page  -->
+  <Project>https://github.com/donmelton/video_transcoding</Project>
+  <Support></Support>
+  <!-- DON'T use any "&" in the overview section  -->
+  <Overview>
+    These are the awesome video transcoding scripts by Don Melton (https://github.com/donmelton/video_transcoding). The docker container is maintained by ntodd (https://hub.docker.com/r/ntodd/video-transcoding/). All credits where due. Please note that the scripts must be used from the commandline. No GUI / Webserver is provided. To run the script, ssh in and execute $ docker run -itv "`pwd`":/data ntodd/video-transcoding.
+  </Overview>
+  <!-- dockerhub link  -->
+  <Registry>https://hub.docker.com/r/ntodd/video-transcoding/</Registry>
+  <Repository>dabigboss/dm-video-transcodingtest/test</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Network Default="bridge">bridge</Network>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
+          Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
+          Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+
+
+  <Icon></Icon>
+</Container>
